@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title>Jonathan Andrews - Web Dev Extraodinaire</title>
+        <meta name="author" content="Jonathan Andrews">
+        <meta name="description" content="This is a technical resume for Jonathan Andrews, with a focus on web development.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+
+        <!-- Bootstrap 4.5.2 CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <!-- FontAwesome 4.7 CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="container">
+
+                <h1>Jonathan Andrews</h1>
+
+                <p class="header-text">Committed. Engaged. Flexible.</p>
+
+                <hr>
+
+                <div class="row contact-info">
+
+                    <a class="col-sm-12 col-md-4 contact-link" target="_blank" href="tel:407-687-6724">(407) 687-6724</a>
+
+                    <a class="col-sm-12 col-md-4 contact-link" target="_blank" href="mailto: andrews.jonathan.d@outlook.com">andrews.jonathan.d@outlook.com</a>
+
+                    <!-- Add linked in logo from Font Awesome -->
+                    <a class="col-sm-12 col-md-4 contact-link" target="_blank" href="https://www.linkedin.com/in/jonathan-d-andrews">/in/jonathan-d-andrews</a>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <div class="container">
+
+            <main>
+
+                <div class="row">
+
+                    <div class="website-portfolio-partial col-12">
+                        
+                        <h2>A sample of the websites that I have built</h2>
+
+                        <p>Click the image to display a gallery of each site's pages</p>
+
+                        <div class="row" id="gallery">
+
+                            <div class="gallery-item col-12 col-sm-6 col-lg-3">
+
+                                <div class="gallery-item-wrapper">
+
+                                    <div data-toggle="modal" data-target="#floridasFinestModal">
+                                        <img class="w-100" src="images\floridas-finest\Florida's Finest Pest Control Home Page.jpg" alt="Florida's Finest Pest Control Home Page" data-target="#floridasfinestCarousel" data-slide-to="0">
+                                    </div>
+
+                                    <h3>Florida's Finest Pest Control</h3>
+
+                                    <!-- <p><a href="https://wecontrolbugs.com/" target="_blank">Website for Florida's Finest Pest Control</a></p> -->
+
+                                </div>
+
+                            </div>
+
+        
+                            <div class="gallery-item col-12 col-sm-6 col-lg-3">
+
+                                <div class="gallery-item-wrapper">
+
+                                    <div data-toggle="modal" data-target="#losersBarModal">
+                                        <img class="w-100" src="images\losers-bar\Losers Bar International Home Page.jpg" alt="Loser's Bar International Home Page" data-target="#losersBarCarousel" data-slide-to="0">
+                                    </div>
+
+                                    <h3>Loser's Bar International</h3>
+
+                                    <!-- <p><a href="https://losers.brandcoders.com/" target="_blank">Website for Loser's Bar International</a></p> -->
+
+                                </div>
+
+                            </div>
+        
+                            <div class="gallery-item col-12 col-sm-6 col-lg-3">
+
+                                <div class="gallery-item-wrapper">
+
+                                    <div data-toggle="modal" data-target="#wellRestedMamasModal">
+                                        <img class="w-100" src="images\well-rested-mamas\Well Rested Mamas Home Page.jpg" alt="Well Rested Mamas Home Page" data-target="wellRestedMamasCarousel" data-slide-to="0">
+                                    </div>
+
+                                    <h3>Well Rested Mamas</h3>
+
+                                    <!-- <p><a href="https://wellrestedmamas.com/" target="_blank">Website for Well Rested Mamas</a></p> -->
+
+                                </div>
+
+                            </div>
+
+                            <div class="gallery-item col-12 col-sm-6 col-lg-3">
+
+                                <div class="gallery-item-wrapper">
+
+                                    <div data-toggle="modal" data-target="#premierOralFacialSurgeryModal">
+                                        <img class="w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Home Page.jpg" alt="Premier Oral and Facial Surgery Home Page" data-target="premierOralFacialSurgeryCarousel" data-slide-to="0">
+                                    </div>
+
+                                    <h3>Premier Oral & Facial Surgery</h3>
+
+                                    <!-- <p><a href="https://premieroralfacialsurgery.com/" target="_blank">Website for Premier Oral & Facial Surgery</a></p> -->
+
+                                </div>
+
+                            </div>
+
+                        </div>  <!-- .row -->
+        
+                        <!-- Modal markup: https://getbootstrap.com/docs/4.4/components/modal/ -->
+                        <div class="modal fade" id="floridasFinestModal" tabindex="-1" role="dialog" aria-hidden="true">
+        
+                            <div class="modal-dialog" role="document">
+        
+                                <div class="modal-content">
+        
+                                    <div class="modal-header">
+        
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+        
+                                    </div>  <!-- .modal-content -->
+        
+                                    <div class="modal-body">
+        
+                                        <div id="floridasfinestCarousel" class="carousel slide" data-ride="carousel">
+        
+                                            <div class="carousel-inner">
+        
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control Home Page.jpg" alt="Florida's Finest Pest Control Home Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control About Page.jpg" alt="Florida's Finest Pest Control About Pest Control Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control Lawn Care Service Page.jpg" alt="Florida's Finest Pest Control Lawn Care Service Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control Lawn Services SEO Page.jpg" alt="Florida's Finest Pest Control Lawn Services SEO Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control Irrigation Repair and Maintenance Page.jpg" alt="Florida's Finest Pest Control Irrigation Repair and Maintenance Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control Pest Control SEO Page.jpg" alt="Florida's Finest Pest Control Pest Control SEO Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control Mosquito Treatment Page.jpg" alt="Florida's Finest Pest Control Mosquito Treatment Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control Services Bridge Page.jpg" alt="Florida's Finest Pest Control Services Bridge Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control Aquatic Weed Control Page.jpg" alt="Florida's Finest Pest Control Aquatic Weed Control Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control Careers Page.jpg" alt="Florida's Finest Pest Control Careers Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\floridas-finest\Florida's Finest Pest Control Contact Page.jpg" alt="Florida's Finest Pest Control Contact Page">
+                                                </div>
+        
+                                            </div>  <!-- .carousel-inner -->
+        
+                                            <a class="carousel-control-prev" href="#floridasfinestCarousel" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                            </a>
+        
+                                            <a class="carousel-control-next" href="#floridasfinestCarousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                            </a>
+        
+                                        </div>  <!-- floridasfinestCarousel -->
+        
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>  <!-- .modal-footer -->
+        
+                                    </div>  <!-- .modal-body -->
+        
+                                </div>  <!-- .modal-content -->
+        
+                            </div>  <!-- modal-dialog -->
+        
+                        </div>  <!-- #floridasFinestModal -->
+        
+                        <div class="modal fade" id="losersBarModal" tabindex="-1" role="dialog" aria-hidden="true">
+        
+                            <div class="modal-dialog" role="document">
+        
+                                <div class="modal-content">
+        
+                                    <div class="modal-header">
+        
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+        
+                                    </div>  <!-- .modal-header -->
+        
+                                    <div class="modal-body">
+                                        
+                                        <div id="losersBarCarousel" class="carousel slide" data-ride="carousel">
+        
+                                            <div class="carousel-inner">
+        
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar International Home Page.jpg" alt="Losers Bar International Home Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar International About Page.jpg" alt="Losers Bar International About Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar International Contact Page.jpg" alt="Losers Bar International Contact Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Midtown Nashville Home Page.jpg" alt="Losers Bar Midtown Nashville Home Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Midtown Nashville Menu.jpg" alt="Losers Bar Midtown Nashville Menu">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Downtown Nashville Home Page.jpg" alt="Losers Bar Downtown Nashville Home Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Downtown Nashville Menu.jpg" alt="Losers Bar Downtown Nashville Menu">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Las Vegas Home Page.jpg" alt="Losers Bar Las Vegas Home Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Las Vegas Menu.jpg" alt="Losers Bar Las Vegas Menu"> 
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Belize Home Page.jpg" alt="Losers Bar Belize Home Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Belize Menu.jpg" alt="Losers Bar Belize Menu">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Single Location Event Page.jpg" alt="Losers Bar Single Location Event Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Single Location Private Parties Page.jpg" alt="Losers Bar Single Location Private Parties Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Single Location Corporate Events Page.jpg" alt="Losers Bar Single Location Corporate Events Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Single Location Gather Integration.jpg" alt="Losers Bar Single Location Gather Integration">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\losers-bar\Losers Bar Single Location Contact Page.jpg" alt="Losers Bar Single Location Contact Page">
+                                                </div>
+        
+                                            </div>  <!-- .carousel-inner -->
+        
+                                            <a class="carousel-control-prev" href="#losersBarCarousel" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                            </a>
+        
+                                            <a class="carousel-control-next" href="#losersBarCarousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                            </a>
+        
+                                        </div>  <!-- #losersBarCarousel -->
+                                
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>  <!-- .modal-footer -->
+        
+                                    </div>  <!-- .modal-body -->
+        
+                                </div>  <!-- .modal-content -->
+        
+                            </div>  <!-- modal-dialog -->
+        
+                        </div>  <!-- #losersBarModal -->
+        
+                        <div class="modal fade" id="wellRestedMamasModal" tabindex="-1" role="dialog" aria-hidden="true">
+        
+                            <div class="modal-dialog" role="document">
+        
+                                <div class="modal-content">
+        
+                                    <div class="modal-header">
+        
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+        
+                                    </div>  <!-- .modal-header -->
+        
+                                    <div class="modal-body">
+                                        
+                                        <div id="wellRestedMamasCarousel" class="carousel slide" data-ride="carousel">
+        
+                                            <div class="carousel-inner">
+        
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="images\well-rested-mamas\Well Rested Mamas Home Page.jpg" alt="Well Rested Mamas Home Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\well-rested-mamas\Well Rested Mamas About Page.jpg" alt="Well Rested Mamas About Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\well-rested-mamas\Well Rested Mamas Sleep Consultant Services Page.jpg" alt="Well Rested Mamas Sleep Consultant Services Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\well-rested-mamas\Well Rested Mamas Terms and Conditions Page.jpg" alt="Well Rested Mamas Terms and Conditions Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\well-rested-mamas\Well Rested Mamas Review Us Page.jpg" alt="Well Rested Mamas Review Us Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\well-rested-mamas\Well Rested Mamas Contact Page.jpg" alt="Well Rested Mamas Contact Page">
+                                                </div>
+                                                
+                                            </div>  <!-- .carousel-inner -->
+        
+                                            <a class="carousel-control-prev" href="#wellRestedMamasCarousel" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                            </a>
+        
+                                            <a class="carousel-control-next" href="#wellRestedMamasCarousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                            </a>
+        
+                                        </div>  <!-- #wellRestedMamasCarousel -->
+                                
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>  <!-- .modal-footer -->
+        
+                                    </div>  <!-- .modal-body -->
+        
+                                </div>  <!-- .modal-content -->
+        
+                            </div>  <!-- modal-dialog -->
+        
+                        </div>  <!-- #wellRestedMamasModal -->
+        
+                        <div class="modal fade" id="premierOralFacialSurgeryModal" tabindex="-1" role="dialog" aria-hidden="true">
+        
+                            <div class="modal-dialog" role="document">
+        
+                                <div class="modal-content">
+        
+                                    <div class="modal-header">
+        
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+        
+                                    </div>  <!-- .modal-content -->
+        
+                                    <div class="modal-body">
+        
+                                        <div id="premierOralFacialSurgeryCarousel" class="carousel slide" data-ride="carousel">
+        
+                                            <div class="carousel-inner">
+        
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Home Page.jpg" alt="Premier Oral and Facial Surgery Home Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Our Practice Page.jpg" alt="Premier Oral and Facial Surgery Our Practice Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Our Team Page.jpg" alt="Premier Oral and Facial Surgery Our Team Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Our Services.jpg" alt="Premier Oral and Facial Surgery Our Services Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Oral Maxillofacial Surgery Page.jpg" alt="Premier Oral and Facial Surgery Oral Maxillofacial Surgery Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Wisdom Teeth Removal Page.jpg" alt="Premier Oral and Facial Surgery Wisdom Teeth Removal Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Dental Implants Page.jpg" alt="Premier Oral and Facial Surgery Dental Implants Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Anesthesia Page.jpg" alt="Premier Oral and Facial Surgery Anasthesia Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Prosthodontics Page.jpg" alt="Premier Oral and Facial Surgery Prosthodontics Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Smile Design Page.jpg" alt="Premier Oral and Facial Surgery Smile Design Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Oral Pathology Page.jpg" alt="Premier Oral and Facial Surgery Oral Pathology Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery All on Four Dental Implants Page.jpg" alt="Premier Oral and Facial Surgery All on Four Dental Implants Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Patient Resources Page.jpg" alt="Premier Oral and Facial Surgery Patient Resources Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Referring Doctors Page.jpg" alt="Premier Oral and Facial Surgery Referring Doctors Page">
+                                                </div>
+        
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="images\Premier Oral Facial Surgery\Premier Oral Facial Surgery Contact Page.jpg" alt="Premier Oral and Facial Surgery Contact Page">
+                                                </div>
+        
+                                            </div>  <!-- .carousel-inner -->
+        
+                                            <a class="carousel-control-prev" href="#premierOralFacialSurgeryCarousel" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                            </a>
+        
+                                            <a class="carousel-control-next" href="#premierOralFacialSurgeryCarousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                            </a>
+        
+                                        </div>  <!-- premierOralFacialSurgeryCarousel -->
+        
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>  <!-- .modal-footer -->
+        
+                                    </div>  <!-- .modal-body -->
+        
+                                </div>  <!-- .modal-content -->
+        
+                            </div>  <!-- modal-dialog -->
+        
+                        </div>  <!-- #premierOralFacialSurgeryModal -->
+
+                    </div>  <!-- .website-portfolio-partial -->
+
+                </div>  <!-- .row -->
+
+            </main>
+
+        </div>  <!-- .container -->
+
+        <footer>
+            <!-- jQuery CDN -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+            <!-- Bootstrap JavaScript Bundle -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+
+        </footer>
+   
+    </body>
+
+</html>
